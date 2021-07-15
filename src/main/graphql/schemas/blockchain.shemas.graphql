@@ -1,0 +1,19 @@
+type Block {
+  timestamp: String
+  data: BlockData
+  prevHash: String
+  hash: String
+}
+
+type BlockData {
+  name: String
+  info: String
+}
+
+type Query {
+  getBlocks: [Block]
+}
+
+type Mutation {
+  addBlock(name: String, info: String): Block
+}

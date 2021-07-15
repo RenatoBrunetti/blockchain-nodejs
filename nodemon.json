@@ -1,0 +1,11 @@
+{
+  "watch": [
+    "src/**/*.ts",
+    "src/**/*.graphql"
+  ],
+  "ignore": [],
+  "ext": "ts, graphql",
+  "execMap": {
+    "ts": "node -r sucrase/register -r tsconfig-paths/register ./src/main/server.ts"
+  }
+}

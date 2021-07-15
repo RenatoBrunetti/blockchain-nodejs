@@ -1,0 +1,16 @@
+# Visual Studio Code
+.vscode
+
+# Node
+node_modules
+
+# Package
+package-lock.json
+yarn.lock
+
+# Global
+*.log
+.env
+coverage
+dist
+tsconfig.tsbuildinfo
